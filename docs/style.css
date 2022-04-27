@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir Next;
+}
+
+@media (prefers-color-scheme: light) {
+	--primary: #f1f5f9;
+	--text: #0f172a;
+	--background: #f8fafc;
+}
+@media (prefers-color-scheme: dark) {
+	--primary: #64748b;
+	--text: #f8fafc;
+	--background: #475569; 
+}
+
+header,
+body > div,
+footer {
+	padding: 16px;
+}
+
+#profilePicture {
+	height: 128px;
+	width: 128px;
+	border-radius: 64px;
+	box-shadow: 0 0 16px 0 var(--primary);
+}
