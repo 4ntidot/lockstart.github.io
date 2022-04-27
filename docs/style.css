@@ -20,10 +20,18 @@ body > div,
 footer {
 	padding: 16px;
 }
+header {
+	text-align: center;
+}
 
 #profilePicture {
 	height: 128px;
 	width: 128px;
 	border-radius: 64px;
 	box-shadow: 0 0 16px 0 var(--primary);
+}
+.icon {
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
 }
