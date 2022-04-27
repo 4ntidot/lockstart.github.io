@@ -5,14 +5,18 @@
 }
 
 @media (prefers-color-scheme: light) {
-	--primary: #8b5cf6;
-	--text: #0f172a;
-	--background: #f8fafc;
+	:root {
+		--primary: #8b5cf6;
+		--text: #0f172a;
+		--background: #f8fafc;
+	}
 }
 @media (prefers-color-scheme: dark) {
-	--primary: #64748b;
-	--text: #f8fafc;
-	--background: #475569; 
+	:root {
+		--primary: #64748b;
+		--text: #f8fafc;
+		--background: #475569;
+	}
 }
 
 header,
