@@ -28,10 +28,15 @@ header {
 	height: 128px;
 	width: 128px;
 	border-radius: 64px;
-	filter: drop-shadow(0 0 16px 0 var(--primary));
+	filter: drop-shadow(0 0 16px 0 #64748b);
 }
 .icon {
 	height: 16px;
 	width: 16px;
 	vertical-align: middle;
+}
+
+a {
+	color: #8b5cf6;
+	text-decoration: none;
 }
