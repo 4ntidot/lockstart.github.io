@@ -24,8 +24,7 @@
 header,
 body > div,
 footer {
-	width: 50%;
-	padding: 16px;
+	padding: 16px 15%;
 	background-color: var(--background);
 	color: var(--text);
 }
@@ -34,7 +33,7 @@ footer {
 	text-align: center;
 }
 body > div {
-	min-height: 600px;
+	min-height: 620px;
 }
 
 #profilePicture {
