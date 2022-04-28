@@ -36,7 +36,7 @@ header {
 	height: 128px;
 	width: 128px;
 	border-radius: 64px;
-	filter: drop-shadow(0 0 16px 0 var(--shadow));
+	filter: drop-shadow(0 0 16px var(--shadow));
 }
 .icon {
 	height: 16px;
