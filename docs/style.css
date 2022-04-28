@@ -24,7 +24,7 @@
 header,
 body > div,
 footer {
-	padding: 16px 15%;
+	padding: 16px 25%;
 	background-color: var(--background);
 	color: var(--text);
 }
