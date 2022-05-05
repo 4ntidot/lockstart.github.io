@@ -52,3 +52,6 @@ a {
 	color: #8b5cf6;
 	text-decoration: none;
 }
+div.post {
+	padding: 8px 0;
+}
