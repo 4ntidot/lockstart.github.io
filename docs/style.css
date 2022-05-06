@@ -21,6 +21,21 @@
 	}
 }
 
+@media only screen and (max-width: 640px) {
+	header,
+	body > div,
+	footer {
+		padding: 16px 12.5%;
+	}
+}
+@media only screen and (max-width: 320px) {
+	header,
+	body > div,
+	footer {
+		padding: 16px;
+	}
+}
+
 header,
 body > div,
 footer {
