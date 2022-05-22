@@ -58,6 +58,11 @@ body > div {
 	width: 16px;
 	vertical-align: middle;
 }
+footer .icon {
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
+}
 
 a {
 	color: var(--primary);
