@@ -6,19 +6,90 @@
 
 @media (prefers-color-scheme: light) {
 	:root {
-		--primary: #0084d8;
+		--primary: #ff5354;
 		--text: #0f172a;
 		--background: #f8fafc;
-		--shadow: #e2e8f0;
+		--shadow: #80202060;
 	}
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-		--primary: #64748b;
+		--primary: #ff5354;
 		--text: #f8fafc;
 		--background: #1e293b;
-		--shadow: #64748b;
+		--shadow: #80606060;
 	}
+}
+
+
+
+header {
+	padding: 16px 25%;
+	background-color: var(--primary);
+	color: #ffffff;
+}
+
+body > div,
+footer {
+	padding: 16px 25%;
+	background-color: var(--background);
+	color: var(--text);
+}
+body {
+	background-color: var(--background);
+}
+header,
+footer {
+	text-align: center;
+}
+body > div {
+	min-height: 500px;
+}
+
+#profilePicture {
+	height: 128px;
+	width: 128px;
+	border-radius: 64px;
+	box-shadow: 0 2px 12px 0 var(--shadow);
+	/* filter: drop-shadow(0 0 16px var(--shadow)); */
+}
+.icon {
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+}
+
+a {
+	color: var(--primary);
+	text-decoration: none;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+
+.progress-bar {
+	height: 24px;
+	width: 160px;
+	background-color: #e4e4ef;
+	border-radius: 4px;
+	margin: 4px 0;
+}
+.progress-bar > .progress {
+	height: 24px;
+	background-color: var(--primary);
+	color: #ffffff;
+	border-radius: 4px;
+}
+.progress > span {
+	font-size: 16px;
+	padding-left: 4px;
+}
+.progress > * {
+	max-height: 16px;
+	vertical-align: -2px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -34,39 +105,17 @@
 	footer {
 		padding: 16px;
 	}
-}
-
-header,
-body > div,
-footer {
-	padding: 16px 25%;
-	background-color: var(--background);
-	color: var(--text);
-}
-header,
-footer {
-	text-align: center;
-}
-body > div {
-	min-height: 620px;
-}
-
-#profilePicture {
-	height: 128px;
-	width: 128px;
-	border-radius: 64px;
-	filter: drop-shadow(0 0 16px var(--shadow));
-}
-.icon {
-	height: 16px;
-	width: 16px;
-	vertical-align: middle;
-}
-
-a {
-	color: #0084d8;
-	text-decoration: none;
-}
-div.post {
-	padding: 8px 0;
+	.progress-bar {
+		height: 32px;
+		width: 100%;
+		border-radius: 6px;
+	}
+	.progress-bar > .progress {
+		height: 32px;
+		border-radius: 6px;
+	}
+	.progress > * {
+		max-height: 24px;
+		vertical-align: -6px;
+	}
 }
