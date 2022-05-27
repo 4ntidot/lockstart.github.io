@@ -1,7 +1,7 @@
 function loadPortfolio() {
 	fetch("portfolio.json")
-		.then(res => res.json())
-		.then(data => {
+		.then((res) => res.json())
+		.then((data) => {
 			var i = 0;
 			for (i == 0; i < data.length, i++) {
 				const section = document.getElementById("portfolio").innerHTML;
