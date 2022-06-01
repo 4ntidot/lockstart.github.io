@@ -26,14 +26,14 @@
 
 
 header {
-	padding: 16px 25%;
+	padding: 16px;
 	background-color: var(--primary);
 	color: #ffffff;
 }
 
 body > div,
 footer {
-	padding: 16px 25%;
+	padding: 16px;
 	background-color: var(--background);
 	color: var(--text);
 }
@@ -127,21 +127,11 @@ li {
 }
 	
 @media only screen and (max-width: 640px) {
-	header,
-	body > div,
-	footer {
-		padding: 16px 12.5%;
-	}
 	.flex-container > .row {
 		width: 50%;
 	}
 }
 @media only screen and (max-width: 480px) {
-	header,
-	body > div,
-	footer {
-		padding: 16px;
-	}
 	.progress-bar {
 		height: 32px;
 		width: 100%;
