@@ -89,7 +89,7 @@ li {
 .progress-bar {
 	height: 24px;
 	width: 160px;
-	background-color: #e4e4ef;
+	background-color: var(--background-2);
 	border-radius: 4px;
 	margin: 4px 0;
 }
