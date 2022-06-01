@@ -9,6 +9,7 @@
 		--primary: #fe4877;
 		--text: #0f172a;
 		--background: #f8fafc;
+		--background-2: #f1f5f9;
 		--shadow: #80202060;
 	}
 }
@@ -17,6 +18,7 @@
 		--primary: #fe4877;
 		--text: #f8fafc;
 		--background: #1e293b;
+		--background-2: #334155
 		--shadow: #80606060;
 	}
 }
