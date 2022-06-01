@@ -66,6 +66,11 @@ footer .icon {
 	border-radius: 16px;
 }
 
+
+.flex-container {
+	display: flex;
+}
+
 a {
 	color: var(--primary);
 	text-decoration: none;
