@@ -70,6 +70,10 @@ footer .icon {
 .flex-container {
 	display: flex;
 }
+.flex-container > .row {
+	width: 33.33%;
+	padding: 8px;
+}
 
 a {
 	color: var(--primary);
@@ -128,6 +132,9 @@ li {
 	footer {
 		padding: 16px 12.5%;
 	}
+	.flex-container > .row {
+		width: 50%;
+	}
 }
 @media only screen and (max-width: 480px) {
 	header,
@@ -147,6 +154,22 @@ li {
 	.progress > * {
 		max-height: 24px;
 		vertical-align: -6px;
+	}
+	
+	.flex-container {
+		display: inherit;
+	}
+	.flex-container > .row {
+		width: 100%;
+		padding: 0;
+	}
+	.card {
+		padding: 8px;
+		border-radius: 16px;
+	}
+	.card > img,
+	.card > iframe {
+		border-radius: 12px;
 	}
 }
 
