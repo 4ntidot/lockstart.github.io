@@ -111,6 +111,7 @@ li {
 .card {
 	background-color: var(--background-2);
 	border-radius: 24px;
+	box-shadow: 0 2px 4px 0 var(--shadow);
 }
 .card > img,
 .card > iframe {
